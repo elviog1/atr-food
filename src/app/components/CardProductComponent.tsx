@@ -12,11 +12,6 @@ export default function CardProductComponent({ product }: any) {
         alt="Producto"
         src={product.image}
       />
-      {/* <img
-        src="https://www.pasosonline.com.ar/wp-content/uploads/2018/08/MANAOS-soda-sifon-x2lt.png"
-        alt="Soda gasificada"
-        className="w-44"
-      /> */}
       <p className="text-sm p-3 text-center">{product.description}</p>
     </div>
   );
