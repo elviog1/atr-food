@@ -7,7 +7,7 @@ export default function CheckboxProduct({ onTypeChange }: any) {
     onTypeChange(type);
   };
   return (
-    <div className="flex items-center space-x-4 text-xl font-bold">
+    <div className="flex justify-center space-x-4 text-xl font-bold sticky top-16 bg-black py-3 w-full z-10">
       <label className="inline-flex items-center">
         <input
           type="radio"

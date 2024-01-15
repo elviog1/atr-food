@@ -49,7 +49,7 @@ export default function ProductsComponent() {
     : products;
 
   return (
-    <div className="flex flex-col  gap-4 items-center">
+    <div className="flex flex-col gap-4 items-center">
       <CheckboxProduct onTypeChange={handleTypeChange} />
       <div className="flex gap-5 justify-center flex-wrap">
         {productsFiltered.map((product) => (

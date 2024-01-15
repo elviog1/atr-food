@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutComponent() {
   return (
     <div className="flex justify-center">
-      <div className="w-3/4 flex flex-col gap-4 items-center">
+      <div className="w-3/4 flex flex-col gap-4 text-center items-center">
         <h2 className="text-4xl text-yellow-600">Sobre Nosotros</h2>
         <p className="text-xl">
           En Monte Chingolo la movida es así! Vení a nuestro antro de comida
